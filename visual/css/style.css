@@ -1,0 +1,93 @@
+header {
+    background-color: tomato;
+    text-align: center;
+    width: 100%;
+}
+
+body {
+    /*background-color: aqua;*/
+}
+
+a {
+    text-decoration: none;
+    color: pink;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: dotted;
+    border-color: pink;
+    text-align: center;
+}
+
+.box-1 {
+    text-align: center;
+}
+
+.box-1 li:hover {
+    color: red;
+}
+
+.box-1 span {
+    display: block;
+    padding-left: 0em;
+}
+
+.box-1 ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.box-1 li {
+    color: rgb(6, 6, 6);
+    padding-left: 5em;
+}
+
+.button:hover {
+    background: red;
+    color: #fff;
+}
+
+.container {
+    background-color: rgb(240, 240, 240);
+    width: 80%;
+    margin: auto;
+}
+
+footer {
+    padding-top: 2in;
+    text-align: center;
+}
+
+.box-2 {
+    height: 3in;
+    background-image: url('../images/background.jpg');
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.box-2 h3 {
+    text-align: center;
+}
+
+.box-3 {
+    width: 3in;
+    height: 3in;
+    margin-left: auto;
+    margin-right: 0mm;
+    background-image: url('../images/background2.jpg');
+}
+
+.categories li {
+    color: pink;
+}
+
+.categories h3 {
+    color: rgba(rgba(166, 250, 184, 0.356), rgba(128, 0, 70, 0.281), rgba(0, 0, 255, 0.493), 1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+}
